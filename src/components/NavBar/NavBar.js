@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./NavBar.module.scss";
-
+import { SocialIcon } from "react-social-icons";
 
 export default function NavBar() {
   return (
@@ -20,7 +20,13 @@ export default function NavBar() {
           <NavLink to="/about" className={styles.navLink}>
             About me
           </NavLink>
-          <div></div>
+
+          <SocialIcon
+            url="https://github.com/CarolinaFledgling"
+            className={styles.iconSocial}
+            target="_blank"
+            style={{ height: 35, width: 35 }}
+          ></SocialIcon>
         </nav>
       </div>
     </header>

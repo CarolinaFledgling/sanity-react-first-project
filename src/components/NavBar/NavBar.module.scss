@@ -1,25 +1,32 @@
-.header{
+.header {
   background-color: rgb(250, 179, 179);
   color: rgb(0, 0, 0);
   padding: 1em;
   width: 100%;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.navigation{
-    display: flex;
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
-.logo{
-    flex: 1;
-    font-weight: bold;
-    text-transform: uppercase;
+.logo {
+  flex: 1;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.navLink{
-    margin-right: 1.5em;
+.navLink {
+  margin-right: 1.5em;
+}
+
+.iconSocial{
+    height: 2rem;
+    width: 2rem;
+
 }
