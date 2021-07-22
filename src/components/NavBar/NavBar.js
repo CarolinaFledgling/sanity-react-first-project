@@ -20,7 +20,6 @@ export default function NavBar() {
           <NavLink to="/about" className={styles.navLink}>
             About me
           </NavLink>
-
           <SocialIcon
             url="https://github.com/CarolinaFledgling"
             className={styles.iconSocial}
