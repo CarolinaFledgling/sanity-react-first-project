@@ -1,0 +1,25 @@
+.header {
+  background-color: rgb(250, 179, 179);
+  color: rgb(0, 0, 0);
+  padding: 1em;
+  width: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navigation{
+    display: flex;
+}
+
+.logo{
+    flex: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navLink{
+    margin-right: 1.5em;
+}
