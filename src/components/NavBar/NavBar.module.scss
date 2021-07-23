@@ -1,6 +1,6 @@
 .header {
-  background-color: rgb(250, 179, 179);
-  color: rgb(0, 0, 0);
+  background-color:#002626;
+  color: #f4f4f8;
   padding: 1em;
   width: 100%;
 }
@@ -13,9 +13,11 @@
 .navigation {
   display: flex;
   align-items: center;
+  
 }
 
 .logo {
+  color: #f4f4f8;
   flex: 1;
   font-weight: bold;
   text-transform: uppercase;
@@ -23,10 +25,11 @@
 
 .navLink {
   margin-right: 1.5em;
+  color: #f4f4f8;
 }
 
 .iconSocial{
     height: 2rem;
     width: 2rem;
-
+    color: #f4f4f8;
 }

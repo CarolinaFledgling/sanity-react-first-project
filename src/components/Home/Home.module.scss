@@ -1,15 +1,18 @@
 .title {
-  font-size: 2rem;
-  color: rgb(2, 2, 1)}
+  font-size: 5rem;
+  color: #002626;
+  position: relative;
+  color: #F4F4F8;
 
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 .imgHero {
-  max-width: 100%;
-  height: auto;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+}
+
+.mainSection {
+  position: relative;
 }

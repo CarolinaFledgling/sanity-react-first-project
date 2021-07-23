@@ -24,7 +24,8 @@ export default function NavBar() {
             url="https://github.com/CarolinaFledgling"
             className={styles.iconSocial}
             target="_blank"
-            style={{ height: 35, width: 35 }}
+            fgColor="#f4f4f8"
+            style={{ height: 35, width: 35, }}
           ></SocialIcon>
         </nav>
       </div>
